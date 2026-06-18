@@ -1,0 +1,103 @@
+<html>
+<head>
+    <title>Dojo e Aikido</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="arrumacoes.css">
+</head>
+<body background="Nokiochi Dojo.jpg">
+    <header id="header">
+        <nav class="links" style="--items: 4;">
+            <a href="Pagina dojo.html">Voltar para o início</a>
+            <a href="Criador do Aikido.html">O Criador do Aikido</a>
+            <a href="contatos.html">Contatos</a>
+            <span class="line"></span>
+			</nav>
+		</header>
+		</body>
+		<br><br><br><br><br><br>
+		<b><span class="class4"class="class6"> O Dojo e o Aikido </b></span>
+    <section><br>
+        <fieldset>
+            <legend><span class="class6"><b>Quer receber nossos conteúdos?</b></span></legend>
+            <form>
+                <span class="class3">Seu nome completo: <input type="text" name="text" placeholder="Insira seu nome" pattern="[a-zA-Z-]" maxlength="20" required>
+                Idade: <input type="number" name="number" placeholder="Insira idade" required>
+                Cidade onde mora: <input type="text" name="text" placeholder="Insira seu nome" pattern="[a-zA-Z-]" maxlength="20" required>
+                Estado: <input list="lista" name="lista">
+                <datalist id="lista">
+                    <option value="MG">
+                    <option value="SP">
+                    <option value="GO">
+                    <option value="MA">
+                    <option value="MT">
+                    <option value="ES">
+                    <option value="DF">
+                    <option value="PB">
+                    <option value="PA">
+                    <option value="outro">
+                </datalist>
+                E-mail: <input type="email" name="email" placeholder="Informe seu email" required><br><br><br>
+                Senha: <input type="password" name="senha" placeholder="Insira a senha de 8 dígitos" pattern="[a-zA-Z0-9@-]{8}" maxlength="8" required>
+                Telefone: <input type="text" name="text" placeholder="Insira também o DDD" pattern="[0-9]{12}" maxlength="12" required>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend><p><b>Sobre o que quer saber mais?</b></p></legend>
+            <form method="post" action="recebe.php">
+                <span class="class3">
+                    <input type="checkbox" name="A história do Aikido" value="true">A história do Aikido
+                    <input type="checkbox" name="Técnicas de Aikido" value="true">Técnicas de Aikido
+                    <input type="checkbox" name="Artigos de praticantes da arte" value="true">Artigos de praticantes da arte
+                    <input type="checkbox" name="Vídeos de seminários e eventos" value="true">Vídeos de seminários e eventos
+                </span>
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend><p><b>Se é praticante, qual a sua graduação?</b></p></legend>
+            <form method="post" action="recebe.php">
+                <span class="class3">
+                    <label for="Iniciante">Iniciante</label>
+                    <input type="radio" name="graduação" id="Iniciante" value="Iniciante">
+
+                    <label for="5ºkyu">5ºkyu</label>
+                    <input type="radio" name="graduação" id="5ºkyu" value="5ºkyu">
+
+                    <label for="4ºkyu">4ºkyu</label>
+                    <input type="radio" name="graduação" id="4ºkyu" value="4ºkyu">
+
+                    <label for="3ºkyu">3ºkyu</label>
+                    <input type="radio" name="graduação" id="3ºkyu" value="3ºkyu">
+
+                    <label for="2ºkyu">2ºkyu</label>
+                    <input type="radio" name="graduação" id="2ºkyu" value="2ºkyu">
+
+                    <label for="1ºkyu">1ºkyu</label>
+                    <input type="radio" name="graduação" id="1ºkyu" value="1ºkyu">
+
+                    <label for="Dan">Dan</label>
+                    <input type="radio" name="graduação" id="Dan" value="Dan">
+
+                    <label for="Sensei">Sensei</label>
+                    <input type="radio" name="graduação" id="Sensei" value="Sensei">
+
+                    <label for="Não pratico">Não pratico</label>
+                </span>
+            </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <button type="submit">Enviar tudo</button>
+        </fieldset>
+    </section>
+
+    <footer>
+        <hr><br>
+        <span class="class3">
+            <span class="class1">Academia Energia Vital<br>
+            Rua Doutor Joaquim Coelho Júnior, 150 - Centro, Pouso Alegre 37550-000.<hr></span>
+        </span>
+    </footer>
+</body>
+</html>
