@@ -39,12 +39,9 @@ The project focused on:
 
 ## Technologies Used
 
--HTML5
--CSS3
+- HTML5  
+- CSS3  
 
 ## Note
 
 The original structure of the project was kept to allow the perception of the evolution of my knowledge throughout my web development studies.
-
-- HTML5  
-- CSS3  
