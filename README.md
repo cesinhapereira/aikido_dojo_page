@@ -19,6 +19,7 @@ Este projeto foi desenvolvido em 2024 como parte dos meus estudos em Desenvolvim
 ## Nota
 
 Mantive a estrutura original do projeto como forma de permitir a percepção da evolução dos meus conhecimentos ao longo dos estudos em desenvolvimento web.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Aikido Dojo – Web Development Study Project ENG.
 
